@@ -256,10 +256,10 @@ const App = () => {
             </div>
 
             <div className="social-links">
-              <a href="https://linkedin.com/in/yourprofile" className="social-link linkedin" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/meher-aravind-pasupuleti-77aa78288/" className="social-link linkedin" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="social-icon" />
               </a>
-              <a href="https://github.com/yourusername" className="social-link github" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Aravind-pasupuleti-2004" className="social-link github" target="_blank" rel="noopener noreferrer">
                 <Github className="social-icon" />
               </a>
             </div>
