@@ -6,8 +6,8 @@ import {
 import './App.css';
 
 const ROLES = [
-  'SOFTWARE DEVELOPER',
-  'RL / UAV SYSTEMS RESEARCHER',
+  'MCA STUDENT',
+  'AGENTIC AI BUILDER',
   'FULL-STACK ENGINEER'
 ];
 
@@ -87,7 +87,7 @@ const App = () => {
     { name: 'Flask', icon: '🧪', level: 85 },
     { name: 'Node.js', icon: '🟢', level: 75 },
     { name: 'MySQL', icon: '🗄️', level: 80 },
-    { name: 'LLM / AI Integration', icon: '🤖', level: 85 },
+    { name: 'Agentic AI / LLM Integration', icon: '🤖', level: 85 },
     { name: 'HTML / CSS', icon: '🌐', level: 90 }
   ];
 
@@ -223,9 +223,10 @@ const App = () => {
                 <span className="cursor-blink">▍</span>
               </p>
               <p className="hero-description">
-                Building software and machine learning systems that solve real problems —
-                from inventory platforms and real-time chat to AI copilots and reinforcement-learning
-                driven navigation. Currently researching RL for UAV flight stability.
+                MCA student building software and AI-driven systems — from inventory
+                platforms and real-time chat apps to AI copilots and agentic AI tools.
+                My final-year project applied reinforcement learning to UAV flight
+                stability; these days I'm most interested in building agentic AI.
               </p>
               <div className="hero-buttons">
                 <button className="btn-primary" onClick={() => scrollToSection('projects')}>
@@ -262,16 +263,16 @@ const App = () => {
           <h2 className="section-title">About</h2>
           <div className="glass-card">
             <p className="about-text">
-              I'm a passionate developer with a strong foundation in both frontend and backend
+              I'm an MCA student with a strong foundation in both frontend and backend
               technologies. My journey began with curiosity about how things work, which led me
               to explore various programming languages and frameworks. I love solving complex
               problems and building solutions that make a real impact.
             </p>
             <p className="about-text">
-              When I'm not coding, I'm exploring reinforcement learning and UAV navigation research,
-              contributing to open-source projects, or experimenting with the latest developments
-              in applied AI. I believe in continuous learning and staying current with an
-              ever-evolving field.
+              For my final-year project, I applied reinforcement learning to UAV flight
+              stability. These days I'm most interested in building agentic AI — systems
+              that can plan, use tools, and act on their own — and I'm always experimenting
+              with the latest developments in applied AI.
             </p>
             <div className="stats-grid">
               <div className="stat-item">
