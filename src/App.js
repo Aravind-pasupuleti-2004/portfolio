@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {
-  Github, Linkedin, Mail, Phone, ExternalLink, Code, Database, Brain,
+  Github, Linkedin, Mail, Phone, ExternalLink, Code, Database,
   MessageSquare, Bot, Calendar, Mic, BarChart3, Radio
 } from 'lucide-react';
 import './App.css';
