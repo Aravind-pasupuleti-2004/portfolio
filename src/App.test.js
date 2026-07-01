@@ -25,10 +25,18 @@ test('renders navigation menu', () => {
 test('renders featured projects', () => {
   render(<App />);
   const stockEaseProject = screen.getByText(/StockEase/i);
-  const codeDebuggerProject = screen.getByText(/Code-Debugger/i);
-  const housePriceProject = screen.getByText(/House Price Prediction Model/i);
-  
+  const codeDebuggerProject = screen.getByText(/AI Code Debugger Assistant/i);
+  const chatAppProject = screen.getByText(/Real-Time Chat Application/i);
+  const drugMarketingProject = screen.getByText(/Bulk Drug Marketing AI Assistant/i);
+  const techeonProject = screen.getByText(/Techeon 2026 Event Website/i);
+  const voiceAgentProject = screen.getByText(/AI Voice Customer Support Agent/i);
+  const excelAnalysisProject = screen.getByText(/Excel Data Analysis AI/i);
+
   expect(stockEaseProject).toBeInTheDocument();
   expect(codeDebuggerProject).toBeInTheDocument();
-  expect(housePriceProject).toBeInTheDocument();
+  expect(chatAppProject).toBeInTheDocument();
+  expect(drugMarketingProject).toBeInTheDocument();
+  expect(techeonProject).toBeInTheDocument();
+  expect(voiceAgentProject).toBeInTheDocument();
+  expect(excelAnalysisProject).toBeInTheDocument();
 });
